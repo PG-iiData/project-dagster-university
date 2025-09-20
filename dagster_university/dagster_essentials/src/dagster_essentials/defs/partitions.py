@@ -10,7 +10,7 @@ monthly_partition = dg.MonthlyPartitionsDefinition(
     end_date=end_date
 )
 
-weekly_partition = dg.MonthlyPartitionsDefinition(
+weekly_partition = dg.WeeklyPartitionsDefinition(
     start_date=start_date,
     end_date=end_date
 )
